@@ -19,7 +19,7 @@ This reduces hours of manual work into seconds and brings explainability and con
 
 **2. Canonical Schema Inference:** “When we pick the Golden Source, the LLM looks at just five sample rows and infers a canonical trade schema. This schema is used to normalize every other source without manual configuration.”
 
-  Highlights:
+  - Highlights:
     - LLM is invoked through ChatOpenAI with a custom model (google/gemini-2.0-flash)
     - Strict Pydantic parsing avoids hallucinations
     - Schema guarantees consistent downstream operations
@@ -55,3 +55,4 @@ This reduces hours of manual work into seconds and brings explainability and con
 **7. Final Export:** “At the end, analysts export a fully reconciled Excel report. This forms a ready-to-submit regulatory audit file.”
 
 **8. Closing Statement:** “Our solution delivers data harmonization, reconciliation, explainability, and auditability in one workflow. It dramatically reduces reconciliation time and increases middle-office accuracy.”
+
